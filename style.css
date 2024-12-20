@@ -8,11 +8,11 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #ffef96;
+    background-color: #FFF0DC;
 }
 .container{
     padding: 24px;
-    background-color: #b2b2b2;
+    background-color: #F0BB78;
     min-height: 60vh;
     min-width: 30vw;
     border-radius: 25px;
@@ -47,7 +47,7 @@ form input{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f4e1d2;
+    background-color: #543A14;
     margin-bottom: 12px;
     border-radius: 12px;
     border: 2px solid rgb(73, 78, 95);
@@ -74,10 +74,10 @@ form input{
         margin-top: 40px;
 font-family: 'Times New Roman', Times, serif;
 font-size: 25px;
-color: white;
+color: rgb(255, 255, 255);
         border-radius: 5px;
         height: 38px;
-        background-color: #50394c;
+        background-color: #131010;
         cursor: pointer;
     }
     .msg{
