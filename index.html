@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>currency converter</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>CURRENCY CONVERTER</h2>
+      <form action="">
+        <div class="amount">
+          <p>Enter amount to convert</p>
+          <input value="1" type="text" />
+        </div>
+
+        <div class="dropdown">
+          <div class="from">
+            <p>FROM</p>
+            <div class="select_Container">
+              <img src="https://flagsapi.com/US/flat/64.png" alt="" />
+              <select name="from" class="selectc"></select>
+            </div>
+          </div>
+          <i class="fa-solid fa-right-left" style="color: #e15c14"></i>
+          <div class="to">
+            <p>TO</p>
+            <div class="select_Container">
+              <img src="https://flagsapi.com/IN/flat/64.png" alt="" />
+              <select name="to" class="selectc"></select>
+            </div>
+          </div>
+        </div>
+        <div class="msg">1 USD = 85 INR</div>
+        <button>convert</button>
+      </form>
+    </div>
+
+    <footer
+      style="
+        background-color: #1f1d1d;
+        color: #fff;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        max-width: 80%;
+        height: 4vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 11px;
+        z-index: 1000;
+      "
+    >
+      <div
+        style="
+          max-width: 1200px;
+          width: 100%;
+          padding: 0 10px;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+          gap: 5px;
+        "
+      >
+        <p style="margin: 0">
+          Made by
+          <a
+            href="https://www.instagram.com/sigma_coder_chandu/"
+            target="_blank"
+            style="color: #41fc51; text-decoration: none; font-weight: bold"
+            >sigma_coder_chandu
+          </a>
+        </p>
+        <p style="margin: 0">  © 2024 All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
